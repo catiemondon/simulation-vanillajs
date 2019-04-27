@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    background-color: #424249;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.leftnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    margin-right: 30px;
+ 
+}
+
+.companyname{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    margin-top: 17px;
+
+}
+.rightnav{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 17px;
+}
+.whitecontainer{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+h3{
+    display: flex; 
+    
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Righteous', cursive;
+}
+.expensestext{
+    
+    display: flex;
+    margin-left: 40px;
+   
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+p{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.graybox{
+    width: 30vw;
+    height: 25vh;
+    background-color: #efe8e1;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+   
+
+}
+.bluebox{
+    width: 30vw;
+    height: 40vh;
+    background-color: #54D2e5;
+}
